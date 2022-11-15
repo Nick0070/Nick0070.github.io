@@ -1,0 +1,17 @@
+ <h3 className='level3'> Жизненная сила - {Hiznenasila}</h3>
+          <h3 className='level3'> Уклонение - {Yklonenie}</h3>
+          <h3 className='level3'> Энергичность - {Energicnost}</h3>
+          <h3 className='level3'> Сила- {Sila}</h3>
+          <h3 className='predlevel'> Атака - {Ataka}</h3>
+          <h3 className='level3'> Ловкость - {Lovkost}</h3>
+          <h3 className='predlevel'> Cтелс - {Stels}</h3>
+          <h3 className='predlevel'> Стрельба из лука - {Strelba_is_lyka}</h3>
+          <h3 className='level3'> Интеллект - {Intelekt}</h3>
+          <h3 className='predlevel'> Обучаемость - {Obychaemost}</h3>
+          <h3 className='predlevel'> Выживание - {Vishivanie}</h3>
+          <h3 className='predlevel'> Медецина - {Medicina}</h3>
+          <h3 className='level3'>Харизма - {Harizma}</h3>
+          <h3 className='predlevel'> Запугивание - {Zapygivanie}</h3>
+          <h3 className='predlevel'> Проницательность - {Pronicatelnost}</h3>
+          <h3 className='predlevel'> Внешний вид - {Vnehnii_vid}</h3>
+          <h3 className='predlevel'> Манипулирование - {Manipulirovanie}</h3>

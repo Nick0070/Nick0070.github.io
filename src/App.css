@@ -1,38 +1,310 @@
-.App {
-  text-align: center;
+
+@media screen and (max-width: 1450px)  {
+  
+.block-left {
+  width: 50%;
+  height: 800px;
+  overflow: hidden;
+  float: left;
 }
+
+.block-right {
+  width: 50%;
+  height: 800px;
+  overflow: hidden;
+}
+
+.hp {
+  text-align: left;
+  margin-top: 0.5cm;
+  margin-left: 4cm;
+
+}
+
+.Name {
+  text-align: left;
+  margin-top: 3cm;
+  margin-left: 1cm;
+
+}
+
+.level {
+  text-align: top;
+  margin-top: 1cm;
+  margin-left: 4cm;
+}
+
+.level2 {
+  text-align: right;
+  margin-top: 0cm;
+  margin-right: 2cm;
+  font-size: я;
+  font-weight: bold;
+}
+
+.level3 {
+  text-align: left;
+  margin-top: 0cm;
+  margin-left: 3cm;
+  font-size: medium;
+}
+
+.predlevel {
+  margin-left: 1cm;
+}
+
+
+.box {
+  margin-left: 3cm;
+  width: 1000px;
+  display: inline-block;
+  font-size: medium;
+  margin-bottom: 100px;
+  text-align: left;
+  position: relative;
+}
+
+.boxleft {
+  margin-left: 1cm;
+  width: 1000px;
+  display: inline-block;
+  font-size: medium;
+  margin-bottom: 100px;
+  overflow: hidden;
+  
+}
+
+
+.button {
+  color: black;
+  background-color: unset;
+  border-radius: 25%;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+
+  display: hidden;
+}
+
+.show {
+  display: none;
+}
+
+
+.text {
+  color: rgb(0, 0, 0);
+  background-color: unset;
+  font-size: medium;
+
+}
+
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 300px;
+  margin-left: 8%;
+  margin-top: 6%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fail {
+  margin-right: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-image: url('./fon.png');
+  background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
+
+
+  min-width: 1170px;
+}
+
+
+.App-body2 {
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: right;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
   color: #61dafb;
+}
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+@media screen and (min-width: 1600px) and (max-width: 1920px)  {
+  
+  .block-left {
+    width: 50%;
+    height: 960px;
+   
+    overflow: hidden;
+    float: left;
+    font-size: large;
+    
+  }
+  
+  .block-right {
+    width: 50%;
+    height: 960px;
+    overflow: hidden;
+  }
+  
+  .hp {
+    text-align: left;
+    margin-top: 0.5cm;
+    margin-left: 6cm;
+  
+  }
+  
+  .Name {
+    text-align: left;
+    
+    margin-top: 15%;
+    margin-left: 1cm;
+    font-size: large;
+  
+  }
+  
+  .level {
+    text-align: top;
+    margin-top: 2cm;
+    margin-left: 4cm;
+  }
+  
+  .level2 {
+    text-align: right;
+    margin-top: 0cm;
+    margin-right: 2cm;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .level3 {
+    text-align: left;
+    margin-top: 20cm;
+    margin-left: 3cm;
+    font-size: medium;
+  }
+  
+  .predlevel {
+    margin-left: 1cm;
+  }
+  
+  
+  .box {
+    margin-left: 3cm;
+    width: 1000px;
+    display: inline-block;
+    font-size: large;
+    margin-bottom: 100px;
+    text-align: left;
+    position: relative;
+  }
+  
+  
+  
+  
+  .boxleft {
+    margin-left: 1cm;
+    width: 1000px;
+    display: inline-block;
+    font-size: medium;
+    margin-bottom: 100px;
+    overflow: hidden;
+    
+  }
+  
+  
+  .button {
+    color: black;
+    background-color: unset;
+    border-radius: 25%;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+  
+    display: hidden;
+  }
+  
+  .show {
+    display: none;
+  }
+  
+  
+  .text {
+    color: rgb(0, 0, 0);
+    background-color: unset;
+    font-size: large;
+  }
+  
+  
+  .App-logo {
+    height: 400px;
+    margin-left: 12%;
+    margin-top: 10%;
+    
+  
+  
+  }
+  
+  .fail {
+    margin-right: 200px;
+   
+  
+    font-size: larger;
+  }
+  
+  
+  
+  
+  .App-body {
+    background-image: url('./fon.png');
+    background-size: cover;
+    min-height: 100vh;
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+   
+  }
+
+  .App-body2 {
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: right;
+    font-size: large;
+    color: rgb(255, 255, 255);
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
